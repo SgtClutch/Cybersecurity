@@ -25,6 +25,8 @@ From the scan, I could conclude with some certainty that the 10.20.0.2 is the vi
 
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/4e384ac7-3bcc-4592-a853-fffe4851f214)
 
+Explain the scans and why you used them ? 
+
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/98809bf6-9d82-4151-b5e2-1a6be5b7a046)
 
 From our Metasploit scans we were able to find many key information such as we were able to brute force the administrator account password, we were able to find the smb version that they are running and we were able to list the smb shares in the machine. 
