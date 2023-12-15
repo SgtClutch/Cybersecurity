@@ -56,7 +56,14 @@ From our reasearch we could use an exploit called enternal blue ms17_010 which t
 
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/0e9f4f79-8913-4f21-82f6-4961786eb019)
 
+Was unable to fully but did crash it for a few mintie. ( try to explain it more
+
+![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/54014cf5-23c3-418d-ae1d-e30a8a8cad24)
+
+
 We used the exploit ms17_010_enternalblue which we learned the computer is vulunberable to due to our nmap scans. We would have used the exploit enternal blue to create a bufferoverflow which created a blue screen and then used our payload option windows/x64/meterpreter/reverse_tcp to extract more information from the pc such as getting any hashes that are in the pc using the hashdump command
+
+
 
 
 
