@@ -48,7 +48,7 @@ From the new scans in the above screenshots, we were able to brute force the ssh
 
 # Exploiting the Server
 
-From our reasearch we could use an exploit called enternal blue ms17_010 which this server is vunlunberable to. 
+From our reasearch we could use an exploit called enternal blue ms17_010 which this server is vunlunberable to. ( Maybe provide the information source ) 
 
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/71ee90ae-ffa2-4f5d-b434-2628d5015c3f)
 
