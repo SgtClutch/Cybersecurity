@@ -21,23 +21,22 @@ In the above screencaps we see that the snort firewall has detected the attack
 
 # SNMP attack 
 
-![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/241c6e74-79c8-4154-ab04-26432c6b1321)
+![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/505ee90b-336c-48ef-a132-c5e8943eafcd)
 
 I am performing a SNMP attack. 
 
-![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/25472ef9-bb6a-4c88-81af-d680254d6db9)
-
-![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/201d8b14-41a9-4f07-96c4-df2319941a4c)
+![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/76332cb1-6756-41bd-98c7-dc220eed0ee8)
 
 In the above screencaps we have seen snort has logged this info. 
 
-![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/0ee9c466-9b5d-4c42-8d02-3a9715d0d7e1)
+![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/9e929633-758a-4d20-9ff4-0314ccd18f81)
 
 We have also seen Wireshark has logged this info 
 
 # Snort firewall configuration
 
-![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/371cbc6d-dddb-48b1-8aaa-0041695d893b)
+![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/a4b0d28a-9bd6-4b05-8a9a-aec553b80254)
+
 
 
 
