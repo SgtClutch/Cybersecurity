@@ -16,7 +16,7 @@ Objective: The objective of this project is to show my skills in Pentesting and 
 
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/75f8b503-4194-4b35-aed4-4356ccc6600f)
 
-From the scan, I could conclude with some certainty that the 10.20.0.2 is the victim’s ip address because we can see that there are a lot of services running in the pc. And, We can see that 10.20.0.1 is mostly likely a pc or not a server. And, 10.20.0.2 is a much more valuable target. 
+From the scan, I could conclude with some certainty that the 10.20.0.2 is the victim’s ip address because we can see that there are a lot of services running in the pc. And, We can see that 10.20.0.1 is mostly likely a pc or not a server.
 
 
 # Reconnaissance 
