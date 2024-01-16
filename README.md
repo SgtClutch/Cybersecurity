@@ -21,6 +21,8 @@ From the scan, I could conclude with some certainty that the 10.20.0.2 is the vi
 
 # Reconnaissance 
 
+During this step, we are going to do more scan and gather more information about the machine. And, we are going to target ftp,smb and ssh protocol. Our goal is gather more info that we can use to exploit the machine.
+
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/c10d8382-0332-48b4-9932-48ba26fcdf8c)
 
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/4e384ac7-3bcc-4592-a853-fffe4851f214)
