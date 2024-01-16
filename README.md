@@ -31,6 +31,13 @@ Explain the scans and why you used them ?
 
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/98809bf6-9d82-4151-b5e2-1a6be5b7a046)
 
+![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/e79804f5-eed8-42d5-8e50-a18ecbd04182)
+
+![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/1a9ccf0a-001c-4cab-83b0-39b17c4e5f45)
+
+From our Metasploit scans we were able to find many key information such as we were able to brute force the administrator account password, we were able to find the smb version that they are running and we were able to list the smb shares in the machine. 
+
+
 From our Metasploit scans we were able to find many key information such as we were able to brute force the administrator account password, we were able to find the smb version that they are running and we were able to list the smb shares in the machine. 
 
 Now we will try for ftp and ssh protocol
