@@ -4,7 +4,8 @@ In this tutorial I will be doing ICMP attacks and an SNMP attack on windows VM a
 
 # Network Topology
 
-![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/8cdf03a1-9dce-45f5-93bc-2d053ed9a1f9)
+![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/0713ca6b-9a3b-4d29-bfe5-a0589dc4eb2d)
+
 
 
 
