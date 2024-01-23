@@ -73,6 +73,9 @@ Was unable to fully but did crash it for a few mintie. ( try to explain it more
 We used the exploit ms17_010_enternalblue which we learned the computer is vulunberable to due to our nmap scans. We would have used the exploit enternal blue to create a bufferoverflow which created a blue screen and then used our payload option windows/x64/meterpreter/reverse_tcp to extract more information from the pc such as getting any hashes that are in the pc using the hashdump command
 
 
+# Resources 
+
+https://nmap.org/book/man-port-scanning-techniques.html
 
 
 
