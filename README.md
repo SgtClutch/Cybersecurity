@@ -3,6 +3,7 @@ Objective: The objective of this project is to show my skills in Pentesting and 
 
 # Network Diagram
 
+![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/8f5ad7fe-34a6-4990-bb30-a9701a49a5df)
 
 
 
