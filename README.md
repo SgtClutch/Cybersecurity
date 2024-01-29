@@ -13,7 +13,7 @@ Objective: The objective of this project is to show my skills in Pentesting and 
 
 # Locating the Target
 
-We are doing a nmap -sS because this scan can be performed quickly and it never compeletes the TCP handshake. The scan sends a SYN packet to the target machine and awaits its response to for a SYN/ACK packet
+We are doing a nmap -sS because this scan can be performed quickly and it never compeletes the TCP handshake. The scan sends a SYN packet to the target machine and awaits for a SYN/ACK packet
 indicating the port is open or RST packet indicating the port is closed. 
 
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/4c9ab3e0-35c5-48ae-9cab-9f14531fd0fb)
@@ -28,9 +28,9 @@ From the scan, I could conclude with some certainty that the 10.20.0.2 is the vi
 
 # Reconnaissance 
 
-During this step, we are going to do more scan and gather more information about the machine. And, we are going to target ftp,smb and ssh protocol. Our goal is gather more info that we can use to exploit the machine.
+During this step, we are going to do more scans and gather more information about the machine. And, we are going to target ftp,smb and ssh protocol. Our goal is gather more info that we can use to exploit the machine.
 
-In metasplot we will be using the auxliary module, this module does not excute any payload and is not directly related to exploitation. There are used for other tasks such as port scanning, DoS attacks etc. During the reconnaissance phase we will be using its scanning feature to scan the smb, ssh and ftp services. 
+In metasplot we will be using the auxliary module, this module does not excute any payload and is not directly related to exploitation. They are used for other tasks such as port scanning, DoS attacks etc. During the reconnaissance phase we will be using its scanning feature to scan the smb, ssh and ftp services. 
  
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/98809bf6-9d82-4151-b5e2-1a6be5b7a046)
 
@@ -55,7 +55,7 @@ Now we will try for ftp and ssh protocol
 
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/b52e363f-d21c-435f-b2f7-be46de4c1090)
 
-From the new scans in the above screenshots, we were able to brute force the ssh login credentials and the ftp credentials. We were able to extract which ssh verision the user is using
+From the new scans in the above screenshots, we were able to brute force the ssh login credentials and the ftp credentials. And, We were able to extract which ssh verision the user is using
 
 
 # Exploiting the Server
@@ -73,7 +73,7 @@ We were unable to create a session with the windows server, but we were able to 
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/54014cf5-23c3-418d-ae1d-e30a8a8cad24)
 
 
-We used the exploit ms17_010_enternalblue which we learned the computer is vulunberable to due to our nmap scans. We would have used the exploit enternal blue to create a bufferoverflow which created a blue screen and our next step would be to use a  payload option windows/x64/meterpreter/reverse_tcp to extract more information from the pc such as getting any hashes that are in the pc using the hashdump command
+We used the exploit ms17_010_enternalblue which we learned the computer is vulnerable to due to our nmap scans. We would have used the exploit enternal blue to create a bufferoverflow which created a blue screen and our next step would be to use a  payload option windows/x64/meterpreter/reverse_tcp to extract more information from the pc such as getting any hashes that are in the pc using the hashdump command
 
 
 # Resources 
