@@ -1,5 +1,5 @@
 # Pentesting project using Metaspolt 
-Objective: The objective of this project is to show my skills in Pentesting and exploit a Windows Server that has not been updated. 
+Objective: The objective of this project is to show my skills in Pentesting skills and exploit a Windows Server that has not been updated. 
 
 # Network Diagram
 
