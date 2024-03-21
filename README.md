@@ -60,7 +60,7 @@ From the new scans in the above screenshots, we were able to brute force the ssh
 
 # Exploiting the Server
 
-From our reasearch we could use an exploit called enternal blue ms17_010 which is a vunlunberability which is described by CVE-2017-0144 that the smb service has, on this server. ( (https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/) https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0144) 
+From our reasearch we could use an exploit called enternal blue ms17_010 which is a vulnerability which is described by CVE-2017-0144 that the smb service has, on this server. ( (https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/) https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0144) 
 
 ![image](https://github.com/SgtClutch/Cybersecurity/assets/59116892/71ee90ae-ffa2-4f5d-b434-2628d5015c3f)
 
