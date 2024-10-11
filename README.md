@@ -4,20 +4,20 @@ import requests
 import json
 import re
 
-# Set your VirusTotal API key
+// Set your VirusTotal API key
 VT_API_KEY = "your_api_key"  # Replace with your actual API key
 
-# Define how often to check DNS cache (in seconds)
+// Define how often to check DNS cache (in seconds)
 CHECK_INTERVAL = 200  # 
 
-# VirusTotal API URL
+// VirusTotal API URL
 VT_API_URL = "https://www.virustotal.com/api/v3/ip_addresses/"
 
-# Log file to store detected malicious IPs
+// Log file to store detected malicious IPs
 LOG_FILE = "malicious_ips_log.txt"
 
 
-# Function to get DNS cache using ipconfig command on Windows
+// Function to get DNS cache using ipconfig command on Windows
 def get_dns_cache():
     try:
         # Run ipconfig command and capture the output
@@ -28,7 +28,7 @@ def get_dns_cache():
         return ""
 
 
-# Function to extract IP addresses from DNS cache output
+// Function to extract IP addresses from DNS cache output
 def extract_ips(dns_cache_output):
     ip_addresses = set()
     lines = dns_cache_output.splitlines()
@@ -46,7 +46,7 @@ def extract_ips(dns_cache_output):
     return ip_addresses
 
 
-# Function to check if an IP is malicious using VirusTotal API
+// Function to check if an IP is malicious using VirusTotal API
 def check_ip_virustotal(ip):
     url = f"{VT_API_URL}{ip}"  # Construct the URL for the specific IP address
     headers = {
@@ -65,7 +65,7 @@ def check_ip_virustotal(ip):
         return None
 
 
-# Function to store malicious IPs in a log file
+// Function to store malicious IPs in a log file
 def log_malicious_ip(ip, report):
     with open(LOG_FILE, "a") as log:
         log.write(f"Malicious IP: {ip}\n")
@@ -73,13 +73,13 @@ def log_malicious_ip(ip, report):
         log.write("\n" + "=" * 40 + "\n")
 
 
-# Function to send an alert (print/log)
+// Function to send an alert (print/log)
 def send_alert(ip, report):
     print(f"ALERT! Malicious IP found: {ip}")
     log_malicious_ip(ip, report)
 
 
-# Main function to monitor DNS cache periodically
+// Main function to monitor DNS cache periodically
 def monitor_dns_cache():
     print("Starting DNS cache monitoring...")
 
