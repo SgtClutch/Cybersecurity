@@ -5,7 +5,7 @@ import json
 import re
 
 # Set your VirusTotal API key
-VT_API_KEY = "c89968c9220fcc24a837e8c30f45da1b85ddd04fbbdba6950fe32c1c3f6c551c"  # Replace with your actual API key
+VT_API_KEY = "replace_with_your_key"  # Replace with your actual API key
 
 # Define how often to check DNS cache (in seconds)
 CHECK_INTERVAL = 200  # 10 minutes
